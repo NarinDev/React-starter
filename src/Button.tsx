@@ -1,15 +1,13 @@
 
 function Button() {
-    const styles = {
-        backgroundColor: "hsl(200, 100%, 50%)",
-        color: "white",
-        padding: "10px 20px",
-        borderRadius: "5px",
-        border: "none",
-        cursor: "pointer"
-    }
 
-    return(<button style={styles}>Click me</button>)
+    const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+        e.currentTarget.textContent = "OUCH!";
+    };
+
+    return (
+        <button onDoubleClick={handleClick}>Click me</button>
+    );
 }
 
 export default Button
