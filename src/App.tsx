@@ -1,4 +1,4 @@
-import PictureToClick from "./PictureToClick.tsx";
+import Car from "./Car.tsx";
 
 function App() {
     // const fruits = [
@@ -9,7 +9,7 @@ function App() {
 
     return(
         <>
-            <PictureToClick/>
+            <Car/>
         </>
     )
 }
