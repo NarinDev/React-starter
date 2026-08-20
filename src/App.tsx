@@ -1,4 +1,4 @@
-import Car from "./Car.tsx";
+import ToDoList from "./ToDoList.tsx";
 
 function App() {
     // const fruits = [
@@ -9,7 +9,7 @@ function App() {
 
     return(
         <>
-            <Car/>
+            <ToDoList/>
         </>
     )
 }
