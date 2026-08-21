@@ -1,4 +1,4 @@
-import ToDoList from "./ToDoList.tsx";
+import ComponentA from "./ComponentA.tsx";
 
 function App() {
     // const fruits = [
@@ -9,7 +9,7 @@ function App() {
 
     return(
         <>
-            <ToDoList/>
+            <ComponentA/>
         </>
     )
 }
